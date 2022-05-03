@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+
+int main()
+{
+    setlocale(LC_ALL,"Portuguese_Brazil");
+    system("title Laços de repetição - for II");
+    system("color 03");
+    printf("Aula - Laços de repetição - for II\n\n");
+    
+    /*
+    
+    for(parte1; parte2; parte3)
+    {
+       parte1 -> inicialização(parte principal da estrutura, onde se declara e inicializa a variável)
+       parte2 -> condição (verifica para dar ou não continuidade á instrução for)
+       parte3 -> atualização (incrementa ou decrementa)
+    }
+
+    */
+    
+    for(int a=0, b=10; a<=10; ++)
+    return 0;
+}

@@ -1,0 +1,68 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+#include <math.h>
+
+/*
+
+Nome do programa: Lista de Compras.
+Objetivo: Exibir a lista de componentes de uma loja de material de construção. Quando terminada, a lista apresentará a soma dos valores a pagar.
+Data Criação/ 05/02/2022.
+
+*/
+
+int main()
+{
+    system("title Lista de Compras");
+    system("color 03");
+
+    char nome[75];
+    printf("Por favor, digite o nome do cliente >>> ");
+    fgets(nome, 75, stdin);
+
+    system("cls");
+
+    printf("Lista de compras - Cliente >>> %s\n", nome);
+    float preco_farinha = 4.69;
+    float preco_fuba = 2.99;
+    float proco_caixa_de_leite = 3.99;
+    float preco_arroz = 16.99;
+    float preco_feijao = 8.99;
+
+    int quantidade_farinha, quantidade_fuba, quantidade_caixa_de_leite, quantidade_arroz, quantidade_feijao;
+    float total_farinha, total_fuba, total_caixa_de_leite, total_arroz, total_feijao, total_a_pagar;
+
+    printf("Quantos pacotes de arroz ele(a) deseja comprar? >>> ");
+    scanf("%i",&quantidade_arroz);
+    printf("\nQuantos pacotes de feijao ele(a) deseja comprar? >>> ");
+    scanf("%i",&quantidade_feijao);
+    printf("\nQuantos pacotes de farinha o(a) cliente deseja? >>> ");
+    scanf("%i",&quantidade_farinha);
+    printf("\nQuantos pacotes de fuba o(a) cliente deseja? >>> ");
+    scanf("%i",&quantidade_fuba);
+    printf("\nQuantas caixas de leite ele(a) deseja comprar? >>> ");
+    scanf("%i",&quantidade_caixa_de_leite);
+
+    total_farinha = preco_farinha * quantidade_farinha;
+    total_fuba = preco_fuba * quantidade_fuba;
+    total_caixa_de_leite = proco_caixa_de_leite * quantidade_caixa_de_leite;
+    total_arroz = preco_arroz * quantidade_arroz;
+    total_feijao = preco_feijao * quantidade_feijao;
+    total_a_pagar = total_farinha+total_fuba+total_caixa_de_leite+total_arroz+total_feijao;
+
+    system("cls");
+
+    printf("Cliente: %s",nome);
+    setlocale(LC_ALL, "Portuguese_Brazil");
+    printf("\n==================================================================\n");
+    printf("\nPacote(s) de arroz >>> %i \n valor: R$ %.2f\n", quantidade_arroz,total_arroz);
+    printf("\nPacote(s) de feijão >>> %i \n valor: R$ %.2f\n",quantidade_feijao,total_feijao);
+    printf("\nPacote(s) de farinha >>> %i \n valor: R$ %.2f\n", quantidade_farinha,total_farinha);
+    printf("\nPacote(s)de fubá >>> %i \n valor: R$ %.2f\n", quantidade_fuba,total_fuba);
+    printf("\nCaixa(s) de leite >>> %i \n valor: R$ %.2f\n",quantidade_caixa_de_leite,total_caixa_de_leite);
+
+    printf("\n==================================================================\n");
+    printf("\nTotal á pagar R$ %.2f \n\n\n",total_a_pagar);
+
+    return 0;
+}

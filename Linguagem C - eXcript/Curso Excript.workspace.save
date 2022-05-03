@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace">
+		<Project filename="1 - IDE/IDE.cbp" />
+		<Project filename="2 - Indentação/Indentação.cbp" />
+		<Project filename="3 - Características das variáveis/Características das variáveis.cbp" />
+		<Project filename="4  - Nomeclatura das variáveis/Nomeclatura das variáveis.cbp" />
+		<Project filename="5  - Tipos primitivos do C/Tipos primitivos do C.cbp" />
+		<Project filename="6 - Valores formatados/Valores formatados.cbp" />
+		<Project filename="7 - Operações matemáticas/Operações matemáticas.cbp" />
+		<Project filename="8 - Entrada de dados/Entrada de dados.cbp" />
+		<Project filename="9 - Calculadora 1.0/Calculadora 1.0.cbp" />
+		<Project filename="10 - Escape sequence/Escape sequence.cbp" />
+		<Project filename="11 - Resto da divisão/Resto da divisão.cbp" />
+		<Project filename="12 - Instrução if/Instrução if.cbp" />
+		<Project filename="13 - Instrução if else/Instrução if else.cbp" />
+		<Project filename="14 - Média de notas escolares/Média de notas escolares.cbp" />
+		<Project filename="15 - Operadores relacionais condicionais/Operadores relacionais condicionais.cbp" />
+		<Project filename="16 - Operadores lógicos e relacionais/Operadores lógicos e relacionais.cbp" />
+		<Project filename="17 - Modificadores de tipo/Modificadores de tipo.cbp" />
+		<Project filename="18 - Laços de repetição - iterador - while/Laços de repetição - iterador - while I/Laços de repetição - iterador - while I.cbp" />
+		<Project filename="18 - Laços de repetição - iterador - while/Laços de repetição - iterador - while II/Laços de repetição - iterador - while II.cbp" />
+		<Project filename="19 -  Operadores de atribuição/Operadores de atribuição.cbp" />
+		<Project filename="20 - Depuração/Depuração.cbp" />
+		<Project filename="22 - Laços condicionais - Do - While/Laços condicionais - do - while.cbp" />
+		<Project filename="23 - Operadores de incremento e decremento/Operadores de incremento e decremento.cbp" />
+		<Project filename="24 - Switch/Switch.cbp" />
+		<Project filename="25 - Laços de repetição - for/Laços de repetição - for I/Laços de repetição - for I.cbp" />
+		<Project filename="25 - Laços de repetição - for/Laços de repetição - for II/Laços de repetição - for II.cbp" />
+		<Project filename="26 - Tabuada/Tabuada.cbp" />
+		<Project filename="27 - Associatividade de operadores/Associatividade de operadores.cbp" />
+		<Project filename="28 - Precedência de operadores/Precedência de operadores.cbp" />
+		<Project filename="29 - Break e continue/Break e continue.cbp" />
+		<Project filename="30 - Constantes/Constantes.cbp" />
+		<Project filename="31 - Operador ternário/Operador ternário.cbp" />
+		<Project filename="32 - Operação ternária/Operação ternária.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

@@ -1,0 +1,39 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+
+/*
+
+Nome do programa: Número Inteiro.
+Objetivo: Solicitar que o usuário digite um número inteiro. O sistema irá mostrar se se trata de um número negativo, 0, ou positivo.
+Data Criação: 09/03/2022.
+
+*/
+
+int main()
+{
+    system("title Número Inteiro");
+    system("color 03");
+    setlocale(LC_ALL, "Portuguese_Brazil");
+
+    int num;
+    printf("Por favor, digite um número inteiro >>> ");
+    scanf("%i", &num);
+
+    if(num>0)
+    {
+        printf("\nO número digitado é positivo.\n\n");
+    }
+    else
+    {
+        if(num<0)
+        {
+            printf("\nO número digiitado é negativo.\n\n");
+        }
+        else
+        {
+            printf("\nO número digiitado é 0.\n\n");
+        }
+    }
+    return 0;
+}

@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1638924097 source:c:\users\rafae\documents\14 - médias\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<locale.h>
+
+1645054036 source:d:\development system\meus desenvolvimentos\portugol para c\14 - médias\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<locale.h>
+
+1649131383 source:c:\users\rafae\desktop\portugol para c\14 - médias\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	<math.h>
+

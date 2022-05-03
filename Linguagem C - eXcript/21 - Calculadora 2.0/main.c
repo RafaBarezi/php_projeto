@@ -1,0 +1,74 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include <conio.h>
+#include <locale.h>
+
+int main()
+{
+    setlocale(LC_ALL,"Portuguese_Brazil");
+    system("title Calculadora 2.0");
+    system("color 03");
+    printf("Calculadora 2.0\n\n");
+
+    float num1, num2, resultado;
+    char op ='0'; // op de operação
+
+    do
+    {
+        num1 = num2 = resultado = 0; // resetando as variáveis
+
+        printf("Digite (1) se você deseja somar\n");
+        printf("Digite (2) se você deseja subtrair\n");
+        printf("Digite (3) se você deseja multiplicar\n");
+        printf("Digite (4) se você deseja dividir\n");
+        printf("Digite (0) se você deseja sair do programa\n\n>>> ");
+
+        op = getche(); // A diferença entre getchar e getche é que não existe a necessidade de apertar enter
+
+        if(op != '0')
+        {
+            printf("\n\nPor favor, digite o primeiro número:\n>>> ");
+            scanf(" %f", &num1);
+            printf("\nDigite o segundo número:\n>>> ");
+            scanf(" %f", &num2);
+
+            if(op == '1')
+            {
+                resultado = num1 + num2;
+            }
+            else
+            {
+                if(op == '2')
+                {
+                    resultado = num1 - num2;
+                }
+                else
+                {
+                    if(op == '3')
+                    {
+                        resultado = num1 * num2;
+                    }
+                    else
+                    {
+                        if(op == '4')
+                        {
+                            resultado = num1 / num2;
+                        }
+
+                    }
+                }
+            }
+
+            printf("\n\nO resultado é:\n>>> %.2f\n\n",resultado);
+            printf("\nPressione uma tecla para fazer uma nova operação\n\n",resultado);
+            getch();
+
+        }
+
+        system("cls");
+    }
+    while(op!='0');
+
+    return 0;
+}

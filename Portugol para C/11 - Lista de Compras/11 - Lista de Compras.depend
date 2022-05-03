@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1638764418 source:c:\users\rafae\documents\11 - lista de compras - material de contrução\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<locale.h>
+
+1644107731 source:c:\users\rafae\documents\portugol para c\11 - lista de compras\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<locale.h>
+
+1645065458 source:d:\análises de sistema\meus desenvolvimentos\portugol para c\11 - lista de compras\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<locale.h>
+
+1646529614 source:d:\desenvolvimentos\linguagem c\portugol para c\11 - lista de compras\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<locale.h>
+
+1649128869 source:c:\users\rafae\desktop\portugol para c\11 - lista de compras\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	<math.h>
+

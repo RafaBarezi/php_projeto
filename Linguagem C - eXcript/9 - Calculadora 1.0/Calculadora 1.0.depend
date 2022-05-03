@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1645658444 source:c:\users\rafaela\downloads\9 - calculadora 1.0\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+
+1645658446 source:c:\users\rafae\documents\meus desenvolvimentos\linguagem c\curso excript\9 - calculadora 1.0\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+
+1646497146 source:d:\curso excript\9 - calculadora 1.0\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+

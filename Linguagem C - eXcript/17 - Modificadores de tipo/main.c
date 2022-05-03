@@ -1,0 +1,54 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+
+int main()
+{
+    setlocale(LC_ALL,"Portuguese_Brazil");
+    system("title Modificadores de tipo");
+    system("color 03");
+    printf("Aula - Modificadores de tipo\n\n");
+
+    /*
+
+    Os cinco tipos de dados temos:
+
+    1 - char
+    2 - int
+    3 - float
+    4 - double
+    5 - Void  (vazio)
+
+    Quando precisamos trabalhar com dados muito grandes precisamos lidar com modificadores de tipo. Temos quatro instruções para usar na declaração das variáveis:
+
+    1 - signed
+    2 - unsigned
+    3 - long
+    4 - short
+
+    >>> signed quer dizer que estamos declarando uma variável e queremos usar n°s positivos ou negativos;
+
+    >>> unsigned quer dizer que estamos declarando uma variável e queremos usar apenas n°s positivos; Como não usamos negativos nela a capacidade dobra;
+
+    >>> long quer dizer que estamos declarando uma variável e queremos aumentar a capacidade de armazenamento da variável - precisamos expandir a capacidade dela;
+
+    >>> sort quer dizer que estamos declarando uma variável e queremos diminuir a capacidade de armazenamento da variável - precisamos diminuir a capacidade dela;
+
+    Todos esses operadores podem ser aplicadas as variáveis tipo int, mas nem todos podem ser aplicados ás double e float (Não podemos dar instrução short para uma variável double);
+
+    Usamos a short quando não podemos usar muita memória é um jeito de dizer ao compilador pra não alocar muita memória. A long é ao contrário.
+
+    Observar que cada compilador assume um tamanho pois não existem padronizações na alocação de memória.
+
+    */
+
+    int i = 10;
+    unsigned short int u;
+    printf("Tamanho da variavel i >>> %i\n", sizeof(i));
+    printf("Tamanho da variavel u >>> %i\n", sizeof(u));
+
+    // A função sizeof mostra o tamanho alocado da variável.
+    // A variável i ocupa 4 bytes na memória, a variável u ocupa 2 bytes de memória pois está como short.
+
+    return 0;
+}

@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1638925648 source:c:\users\rafae\documents\15 - idade\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<locale.h>
+
+1645064036 source:d:\análises de sistema\meus desenvolvimentos\portugol para c\15 - idade\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<locale.h>
+
+1649131353 source:c:\users\rafae\desktop\portugol para c\15 - idade\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+

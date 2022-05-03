@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+
+int main()
+{
+    setlocale(LC_ALL,"Portuguese_Brazil");
+    system("title Tabuada");
+    system("color 03");
+    printf("Aula - Tabuada\n\n");
+
+    int tabuada = 0; 
+    printf("Por favor, digite a tabuada desejada:   ");
+     
+    for (int x = 1; x <= 10; ++1); //Começamos do n° 1 para que ele com3e
+    return 0;
+}

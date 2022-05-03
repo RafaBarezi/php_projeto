@@ -1,0 +1,63 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    printf("Aula - Switch I\n\n");
+
+    /*
+
+    A instrução Switch serve para evitar o uso excessivo e confuso de ifs aninhados.Neste caso trabalhamos com constantes:
+
+    switch(expressao)
+    {
+    case(expressao_const):    //expressao constante
+        break;
+    case(true):
+        break;    //Quando o compilador encontra a instrução break ele sai do bloco de instrução.Se a gente não inserir ele a leitura continua, causando erros
+    default:    // Instrução é executada se a condição anterior não foi satisfeita ou se não possuir brea
+
+    */
+
+    printf("Digite um valor entre 0 e 9:   ");
+    int i;
+    scanf("%i", &i);
+
+    switch(i)
+    {
+    case 0:
+        printf("\nA opção digitada foi: 0");
+        break;
+    case 1:
+        printf("\nA opção digitada foi: 1");
+        break;
+    case 2:
+        printf("\nA opção digitada foi: 2");
+        break;
+    case 3:
+        printf("\nA opção digitada foi: 3");
+        break;
+    case 4:
+        printf("\nA opção digitada foi: 4");
+        break;
+    case 5:
+        printf("\nA opção digitada foi: 5");
+        break;
+    case 6:
+        printf("\nA opção digitada foi: 6");
+        break;
+    case 7:
+        printf("\nA opção digitada foi: 7");
+        break;
+    case 8:
+        printf("\nA opção digitada foi: 8");
+        break;
+    case 9:
+        printf("\nA opção digitada foi: 9");
+        break;
+    default:
+        printf("\nVocê digitou uma opção inválida.");
+    }
+
+    return 0;
+}

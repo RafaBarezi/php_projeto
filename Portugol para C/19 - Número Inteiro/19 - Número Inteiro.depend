@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1647048506 source:c:\users\rafae\desktop\portugol para c\19 - número inteiro\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+

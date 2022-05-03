@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1648016729 source:c:\users\rafae\desktop\portugol para c\21 - calculadora\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	<locale.h>
+

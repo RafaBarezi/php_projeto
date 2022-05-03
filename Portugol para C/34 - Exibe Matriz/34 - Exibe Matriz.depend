@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1649203101 source:c:\users\rafae\desktop\portugol para c\34 - exibe matriz\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+

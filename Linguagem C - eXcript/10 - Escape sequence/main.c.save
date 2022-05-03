@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+
+    printf( "Escape sequence\n\n" );
+
+    /* 
+    Colocar o t é a mesmoa coisa que
+    inserir um tab na frante da instrução.
+    É como inserir uma tabulação á frente :
+    */
+
+    printf( "\tEste e um exemplo\n" );
+
+    /* 
+    Quais são as sequencias de escape?
+    \n -> quebra uma linha;
+    \t -> dá um tab na impressão;
+    \\ -> serve para imprimir uma barra invertida;
+    \" -> serve para imprimir uma aspa dupla;
+    \' -> serve para imprimir uma aspa simples;
+    \0 -> aqui finaliza o nosso texto :
+    É aqui que diz que print deve parar de imprimir
+
+    */
+
+    return 0;
+    }

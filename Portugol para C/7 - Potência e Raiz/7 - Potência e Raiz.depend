@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1638143908 source:c:\users\rafae\documents\7 - potência e raiz\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	<math.h>
+
+1638143374 source:c:\users\rafae\desktop\untitled1.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	<math.h>
+
+1644034317 source:c:\users\rafae\documents\portugol para c\7 - potência e raiz\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<locale.h>
+
+1649125146 source:c:\users\rafae\desktop\portugol para c\7 - potência e raiz\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	<math.h>
+

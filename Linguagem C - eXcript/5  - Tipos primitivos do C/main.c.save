@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <locale.h>
+
+void main()
+{
+    setlocale(LC_ALL,"Portuguese_Brazil");
+    system("title Tipos primitivos do C");
+    system("color 03");
+    printf("Aula - Tipos primitivos do C\n\n");
+
+    /*
+
+    Temos os seguintes tipos de variáveis:
+
+    >>> char -> recebe caracteres - 1 byte - Cada byte é uma sequência de 8 bits (dígitos binários) - 256 caracteres;
+    
+    >>> int -> recebe números positivos e negativos - 2 bytes (SO de 32 e 64 bits armazenam valores diferentes)- 32768 + 32767;
+    
+    >>> float -> armazena decimais - 4 bytes - Números com até 7 dígitos de precisão;
+    
+    >>> double -> ponto flutuante duplo - permite até 15 casas decimais - (usado para cálculos com grandes números);
+    
+    >>> void -> vazio / sem tipo - nenhum espaço de memória;
+
+    */
+
+}

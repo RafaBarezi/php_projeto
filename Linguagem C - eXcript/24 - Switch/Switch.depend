@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1645419486 source:c:\users\rafae\documents\c\switch i\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1645561318 source:d:\curso excript\25 - switch\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1645646232 source:c:\users\rafae\documents\meus desenvolvimentos\linguagem c\curso excript\24 - switch\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+
+1645646232 source:d:\curso excript\24 - switch\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+

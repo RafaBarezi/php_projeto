@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace">
+		<Project filename="Índice/Índice.cbp" />
+		<Project filename="1 - Hello World!/1 - Hello World!.cbp" />
+		<Project filename="2 - Programa/2 - Programa.cbp" />
+		<Project filename="3 - Seu Nome/3 - Seu Nome.cbp" />
+		<Project filename="4 - Operação Simples/4 - Operação Simples.cbp" />
+		<Project filename="5 - Precedência dos Operadores/5 - Precedência dos Operadores.cbp" />
+		<Project filename="6- Divisões Inteiras/6- Divisões Inteiras.cbp" />
+		<Project filename="7 - Potência e Raiz/7 - Potência e Raiz.cbp" />
+		<Project filename="8 - Troca de Variáveis/8 - Troca de Variáveis.cbp" />
+		<Project filename="9 - Maioridade Penal/9 - Maioridade Penal.cbp" />
+		<Project filename="10 - Altura Média/10 - Altura Média.cbp" />
+		<Project filename="11 - Lista de Compras/11 - Lista de Compras.cbp" />
+		<Project filename="12 - Quantos Dias/12 - Quantos Dias.cbp" />
+		<Project filename="13 - Vogal/13 - Vogal.cbp" />
+		<Project filename="14 - Médias/14 - Médias.cbp" />
+		<Project filename="15 - Idade/15 - Idade.cbp" />
+		<Project filename="16 - Múltiplo de Cinco/16 - Múltiplo de Cinco.cbp" />
+		<Project filename="17 - Números Iguais/17 - Números Iguais.cbp" />
+		<Project filename="18 - Média Final/18 - Média Final.cbp" />
+		<Project filename="19 - Número Inteiro/19 - Número Inteiro.cbp" />
+		<Project filename="20 - Tipo Triângulo/20 - Tipo Triângulo.cbp" />
+		<Project filename="21 - Calculadora/21 - Calculadora.cbp" />
+		<Project filename="22 - Escolha Caso/22 - Escolha Caso.cbp" />
+		<Project filename="23 - Contagem Regressiva/23 - Contagem Regressiva.cbp" />
+		<Project filename="24 - Tabuada/24 - Tabuada.cbp" />
+		<Project filename="25 - Consistência/25 - Consistência.cbp" />
+		<Project filename="26 - Média de 10 Números/26 - Média de 10 Números.cbp" />
+		<Project filename="27 - Soma Um X/27 - Soma Um X.cbp" />
+		<Project filename="28 - Fatorial/28 - Fatorial.cbp" />
+		<Project filename="29 - Eleição/29 - Eleição.cbp" />
+		<Project filename="30 - Preenche e Exibe Vetor/30 - Preenche e Exibe Vetor.cbp" />
+		<Project filename="31 - Pesquisa Vetor/31 - Pesquisa Vetor.cbp" />
+		<Project filename="32 - Tabela Dados/32 - Tabela Dados.cbp" />
+		<Project filename="33 - Diagonal Principal/33 - Diagonal Principal.cbp" />
+		<Project filename="34 - Exibe Matriz/34 - Exibe Matriz.cbp" />
+		<Project filename="35 - Procedimento Função/35 - Procedimento Função.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

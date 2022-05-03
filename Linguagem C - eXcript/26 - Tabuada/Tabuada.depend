@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1646409606 source:c:\users\rafae\documents\meus desenvolvimentos\linguagem c\curso excript\26 - tabuada\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+

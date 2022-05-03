@@ -1,0 +1,79 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include <conio.h>
+#include <locale.h>
+
+/*
+
+Nome do programa: Calculadora.
+Objetivo: Solicitar que o usuário digite um número e operação matemática
+Programadora: Rafaela Vieira Barezi.
+Data Criação: 09/03/2022.
+
+*/
+
+int main()
+{
+    system("title calculadora");
+    system("color 03");
+    setlocale(LC_ALL, "Portuguese_Brazil");
+
+    float num1, num2, resultado;
+
+    char op='0';
+
+    do
+    {
+        num1 = num2 = resultado = 0;
+
+        printf("Por favor, digite um número >>> ");
+        scanf("%f", &num1);
+        printf("\nPor favor, digite mais um número >>> ");
+        scanf("%f", &num2);
+
+        printf("\nDigite (1) para somar\n");
+        printf("\nDigite (2) para subtrair\n");
+        printf("\nDigite (3) para multiplicar\n");
+        printf("\nDigite (4) para dividir\n\n>>> ");
+
+        op = getche();
+
+
+        if(op == '1')
+        {
+            resultado = num1 + num2;
+            printf("\n\n%.0f + %.0f = %.0f\n", num1, num2, resultado);
+        }
+        else
+        {
+            if(op == '2')
+            {
+                resultado = num1 - num2;
+                printf("%.0f - %.0f = %.0f\n", num1, num2, resultado);
+            }
+            else
+            {
+                if(op == '3')
+                {
+                    resultado = num1 * num2;
+                    printf("%.0f * %.0f = %.0f\n", num1, num2, resultado);
+                }
+                else
+                {
+                    if(op =='4')
+                    {
+                        resultado = num1 / num2;
+                        printf("\n\n%.0f / %.0f = %.0f\n", num1, num2, resultado);
+                    }
+                }
+            }
+
+        }
+        system(cls))
+    }
+
+    while(op=='1','2','3','4');
+
+    return 0;
+}

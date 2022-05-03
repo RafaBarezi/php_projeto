@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1649113228 source:c:\users\rafae\desktop\portugol para c\33 - diagonal principal\33 - diagonal principal\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+
+1649191818 source:c:\users\rafae\desktop\portugol para c\33 - diagonal principal\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+

@@ -1,0 +1,42 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+
+/*
+
+Nome do programa: Escolha Caso.
+Objetivo: Solicitar que o usuário digite a opçaõ escolhida. Este é o primeiro programa com o comando case no lugar de if else.
+Data Criação: 11/03/2022.
+
+*/
+
+int main()
+{
+    setlocale(LC_ALL,"Portuguese_Brazil");
+    system("title Escolha Caso");
+    system("color 03");
+
+    int opcao;
+    printf("Escolha (1) para elogio;\n");
+    printf("Escolha (2) para ofensa;\n");
+    printf("Escolha (3) para sair.\n\n");
+    printf("Por favor, digite uma opção >>> ");
+    scanf("%i", &opcao);
+
+    switch(opcao)
+    {
+    case 1:
+        printf("\nvoce é lindo(a)!\n");
+        break;
+    case 2:
+        printf("\nvoce é um monstro\n");
+        break;
+    case 3:
+        printf("\nTchau!\n");
+        break;
+    default:
+        printf("\nOpção inválida!\n");
+    }
+
+    return 0;
+}

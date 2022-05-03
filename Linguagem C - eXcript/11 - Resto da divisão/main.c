@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+
+int main()
+{
+    setlocale(LC_ALL,"Portuguese_Brazil");
+    system("title Resto da divisão");
+    system("color 03");
+    printf("Aula - Resto da divisão\n\n");
+
+    // Para resto da divisão o C nos oferece um operador específico. Se usa o símbolo %.
+
+    printf( "%i\n", 3 % 2);
+    printf( "%i\n", 6 % 2);
+    printf( "%i\n", 11 % 3);
+
+    return 0;
+}

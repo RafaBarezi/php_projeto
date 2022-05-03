@@ -1,0 +1,52 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+
+/*
+
+Nome do programa: Diagonal Principal.
+Objetivo: Cria uma matriz e preenche 
+Data Criação: 02/04/2022.
+
+*/
+
+int main()
+{
+    setlocale(LC_ALL, "Portuguese_Brazil");
+    system("title Diagonal Principal");
+    system("color 03");
+
+    int tamanho = 25;
+    int linha, coluna;
+    char matrix[tamanho][tamanho];
+
+
+    // preenchendo a matriz
+
+    for(linha = 0 ; linha < tamanho ; linha ++)
+    {
+        for(coluna = 0 ; coluna < tamanho; coluna ++)
+        {
+            if(linha == coluna)
+            {
+                matrix[linha][coluna] = 'x';
+            }
+            else
+            {
+                matrix[linha][coluna] = ' ';
+            }
+        }
+    }
+
+    //imprimindo a matriz
+
+    for(linha = 0 ; linha < tamanho ; linha ++)
+    {
+        for(coluna = 0 ; coluna < tamanho; coluna ++)
+        {
+            printf("[%c]", matrix[linha][coluna]);
+        }
+        printf("\n");
+    }
+    return 0;
+}

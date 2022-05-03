@@ -1,0 +1,140 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+
+int main()
+{
+    setlocale(LC_ALL,"Portuguese_Brazil");
+    system("title encadeamento e aninhamento de ifs - switch case");
+    system("color 03");
+    printf("Bônus - encadeamento e aninhamento de ifs - switch case\n\n");
+
+    /*
+
+
+    >>> Encadeamento:
+
+        if(opcao>0)
+        {
+            printf("\nNúmero positivo.\n);
+        }
+        else
+        {
+            if(opcao==0)
+            {
+                printf(\nNúmero nulo.\n);
+            }
+            else
+            {
+                printf("\nNúmero negativo.\n);
+            }
+        }
+
+
+
+    >>> Aninhamento:
+
+        if(opcao>=0)
+        {
+            if(opcao==0
+        {
+            printf("\nNúmero nulo.\n");
+            }
+            else
+            {
+                printf("\nNúmero positivo.\n");
+            }
+        }
+        else
+        {
+            printf("\nNúmero positivo.\n");
+        }
+
+
+
+    >>> Switch Case abaixo:
+
+        */
+
+    int opcao;
+    printf("Digite a opção 1 para adicionar ou 2 para excluir >>> ");
+    scanf("i", &opcao);
+
+    switch(opcao)
+    {
+    case 1:
+        printf("\nNúmero 1\n");
+        break;
+    case 2:
+        printf("\nNúmero 2\n");
+        break;
+    default:
+        printf("opção inválida\n");
+        printf("final do programa\n");
+        return 0;
+    }
+
+
+    /*
+
+
+    >>> if composto internamente a uma if simples:
+
+    if(EXPRESSAO_CONDICIONAL_1)
+    {
+        if(EXPRESSÃO_CONDICIONAL_2)
+        {
+        bloco_de_intrucao_1;
+        }
+    }
+    else
+    {
+        bloco_de_instrucao_2;
+    }
+
+
+
+    >>> if simples sendo um comando de uma estrutura else:
+
+    if(EXPRESSAO_CONDICIONAL_1)
+    {
+        bloco_de_intrucao_1;
+    }
+    else
+    {
+        if((EXPRESSAO_CONDICIONAL_2)
+        {
+        bloco_de_instrucao_2;
+        }
+    }
+
+
+
+    >>> if / if else (encadeados e aninhados)/ switch case
+
+
+    int opcao;
+    printf("Digite um número inteiro >>> ");
+    scanf("i", &opcao);
+
+    switch(variavel)
+    {
+    case A;
+        bloco_de_instrucao_1;
+        break;
+    case B;
+        bloco_de_instrucao_2;
+        break;
+    case C;
+        bloco_de_instrucao_3;
+        break;
+    default
+        bloco_de_instrucao_4;
+    }
+
+
+    O campo variável precisa ser char ,int e long. A, B e C também precisam ser.
+    Sendo a variável igual a A, por exemplo, a sequencia de execução de tarefas continua até que o comando break seja encontrado.
+
+    */
+}

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1649190801 source:c:\users\rafae\desktop\portugol para c\26 - média de 10 números\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+

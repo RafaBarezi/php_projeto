@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1638044961 source:c:\users\rafae\documents\2 - programa\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1644031860 source:c:\users\rafae\documents\portugol para c\2 - programa\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+
+1645052731 source:d:\development system\meus desenvolvimentos\portugol para c\2 - programa\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+
+1645064251 source:d:\análises de sistema\meus desenvolvimentos\portugol para c\2 - programa\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+
+1645064438 source:d:\desenvolvimentos\linguagem c\portugol para c\2 - programa\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+
+1649711637 source:c:\users\rafae\desktop\portugol para c\2 - programa\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+

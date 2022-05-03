@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1647030873 source:c:\users\rafae\desktop\curso excript\bônus - encadeamento e aninhamento de ifs - switch case\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+

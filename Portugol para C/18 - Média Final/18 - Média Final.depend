@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1646579740 source:d:\desenvolvimentos\linguagem c\portugol para c\18 - média final\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	<locale.h>
+
+1649142418 source:c:\users\rafae\desktop\portugol para c\18 - média final\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	<conio.h>
+	<ctype.h>
+	<wchar.h>
+

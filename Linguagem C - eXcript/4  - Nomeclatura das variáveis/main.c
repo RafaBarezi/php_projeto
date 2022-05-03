@@ -1,0 +1,37 @@
+#include <stdio.h>
+#include <locale.h>
+
+int main()
+{
+    setlocale(LC_ALL,"Portuguese_Brazil");
+    system("title Nomeclatura das variáveis");
+    system("color 03");
+    printf("Aula - Nomeclatura das variáveis\n\n");
+
+    /*
+
+    Tipo nomeDaVariável = valorPadrão;
+
+    Não é obrigatório atribuir um valor padrão, porém é um bom costume.
+
+    int num1 = 0
+    int num2 = 0
+
+    Existe outra forma de declarar várias variáveis ao mesmo tempo como:
+
+    int num1, num2 = 0; (É bem mais rápido e elegante assim).
+
+    * Para variáveis com nomes compostos usar a segunda palavra com nome maiúsculo como em numeroVerificado;
+
+    *No C uma variável não pode começar com número, apenas com letra;
+
+    *Caso precisar iniciar com um número se deve usar a underline;
+
+    *Não podemos deixar espaços também, devemos usar o underline neste caso também;
+
+    *Não podemos usar *-"/  (ou seja todos os caracteres) nos nomes de variáveis.
+
+    */
+
+    return 0;
+}

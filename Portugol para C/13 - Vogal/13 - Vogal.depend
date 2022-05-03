@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1638882143 source:c:\users\rafae\documents\13 - vogal\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<locale.h>
+
+1638882144 source:c:\users\rafae\documents\portugol para c\13 - vogal\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<locale.h>
+
+1649130157 source:c:\users\rafae\desktop\portugol para c\13 - vogal\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+

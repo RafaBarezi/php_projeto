@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1646440516 source:c:\users\rafaela\desktop\curso excript\29 - break e continue\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+

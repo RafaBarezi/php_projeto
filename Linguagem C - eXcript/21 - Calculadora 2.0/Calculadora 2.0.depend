@@ -1,0 +1,41 @@
+# depslib dependency file v1.0
+1645231705 source:d:\análises de sistema\meus desenvolvimentos\linguagem c\curso excript\calculadora 2.0\calculadora 2.0\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+
+1645560462 source:d:\curso excript\21 - calculadora 2.0\calculadora 2.0\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+
+1645647910 source:c:\users\rafaela\downloads\21 - calculadora 2.0\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	<locale.h>
+
+1645647910 source:c:\users\rafae\documents\meus desenvolvimentos\linguagem c\curso excript\21 - calculadora 2.0\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	<locale.h>
+
+1646500472 source:d:\curso excript\21 - calculadora 2.0\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	<locale.h>
+
+1646500608 source:d:\desenvolvimentos\linguagem c\curso excript\21 - calculadora 2.0\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	<locale.h>
+

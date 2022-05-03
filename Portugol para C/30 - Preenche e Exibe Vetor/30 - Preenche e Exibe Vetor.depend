@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1648875113 source:c:\users\rafae\desktop\portugol para c\30 - preenche e exibe vetor\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+

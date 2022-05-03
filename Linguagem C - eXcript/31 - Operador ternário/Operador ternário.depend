@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1646449422 source:c:\users\rafaela\desktop\curso excript\31- operador ternário\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+

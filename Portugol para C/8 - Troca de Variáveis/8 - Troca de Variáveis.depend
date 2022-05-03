@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1649124241 source:c:\users\rafae\desktop\portugol para c\8 - troca de variáveis\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+

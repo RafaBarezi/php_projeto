@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1648072443 source:c:\users\rafae\desktop\portugol para c\29 - eleição\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	<conio.h>
+	<math.h>
+

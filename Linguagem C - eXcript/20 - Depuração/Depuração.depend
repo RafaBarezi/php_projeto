@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1637816895 source:c:\users\rafaela barezi\desktop\nova pasta\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+
+1646499086 source:d:\curso excript\20 - depuração\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<locale.h>
+
+1645646232 source:c:\users\rafaela\downloads\20 - depuração\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<locale.h>
+
+1645646232 source:c:\users\rafae\documents\meus desenvolvimentos\linguagem c\curso excript\20 - depuração\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<locale.h>
+

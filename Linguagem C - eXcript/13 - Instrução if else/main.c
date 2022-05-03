@@ -1,0 +1,65 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+
+int main()
+{
+    setlocale(LC_ALL,"Portuguese_Brazil");
+    system("title Instrução if else");
+    system("color 03");
+    printf("Aula - Instrução if else\n\n");
+
+    // Se verdadeiro é executado um bloco, se não é executado outro bloco, isso depende da escolha do usuário.
+
+    int i=10;
+
+    /*
+
+    if(5==5)
+
+    Estamos fazendo uma comparação/ não é atribuição não estamos dizendo que é 5.
+    Estamos comparando se 5 é igual a 5. Poderíamos comparar negativamente com !=
+
+    Por isso usamos os dois iguais ==
+
+    Se fosse é igual a cinco (atribuindo 5 a variável) usaríamos apenas um sinal de igual =
+
+    printf( "\n%i\n", i==1 );
+
+    Aqui queremos saber se i vale 1. Como sabemos naõ é verdade, vai imprimir 0.
+
+    positiva -> 1
+    negativa -> 0
+
+    ele vai dizer que é 0 pois o sistema diz que ele é diferente:
+
+    printf( "\n%i\n", i!=1 );
+
+    Como foi verdadeira, mostrou 1.
+
+    Vamos inverter o resultado, negar a instrução e usar NOT: Inverteremos o valor do resultado.
+
+    Se verdadeiro vai imprimir falso, se falso imprime verdadeiro:
+
+    printf( "\n%i\n", !(i==1));
+
+    ! É um sinal de negação. É o NOT. Colocamos a ! para negar o valor da atribuição.
+
+    */
+
+    printf("Digite um valor != 5\n\n>> ");
+    scanf("%i", &i);
+
+    if(i==5)
+    {
+        printf("\nA Expressao é :");
+        printf("False\n");
+    }
+    else
+    {
+        printf("\nA Expressao é: ");
+        printf("True\n");
+    }
+
+    return 0;
+}

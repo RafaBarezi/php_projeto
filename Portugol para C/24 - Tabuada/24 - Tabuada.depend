@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1649190358 source:c:\users\rafae\desktop\portugol para c\24 - tabuada\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+

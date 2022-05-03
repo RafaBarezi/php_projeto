@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+/*
+
+Nome programa: Hello world.
+Objetivo: Teste iniciante - Hello World - Algoritmo básico - Programação C.
+Programadora: Rafaela Vieira Barezi.
+Data Criação/ 31/01/2022.
+
+*/
+
+void main()
+{
+    printf("Hello world!\n\n\n");
+}

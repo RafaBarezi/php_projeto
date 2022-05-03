@@ -1,0 +1,43 @@
+#include <stdio.h>
+#include <stdlib.h> // biblioteca de conversão, memória, controle de processo, ordenamento e busca, matemática.
+#include <locale.h> // biblioteca para implementar a localização de programas ( simbolos , caracteres regionais.
+
+/*
+
+Nome do programa: Programa.
+Objetivo: Solicitar a digitação de um número inteiro aleatório e imprimir ele na tela.
+Data Criação: 31/01/2022.
+
+*/
+
+int main()
+{
+    // A locale serve para incluir strings e imprimir acentos. Basta configurar:
+    setlocale(LC_ALL,"Portuguese_Brazil");
+    //Estas duas opções 'system' dão título e colorem o compiler segundo a tabela abaixo.
+    system("title Programa");
+    system("color 03");
+
+    /*
+
+    Atributos de cor são especificados por DOIS dígitos hexadecimais.
+    O primeiro corresponde à cor de tela de fundo, o segundo à cor de primeiro plano.
+    Cada dígito pode ter apenas um dos seguintes valores a seguir:
+
+    0 = Preto        8 = Cinza
+    1 = Azul         9 = Azul claro
+    2 = Verde        A = Verde claro
+    3 = Verde-água   B = Verde-água claro
+    4 = Vermelho     C = Vermelho claro
+    5 = Roxo         D = Lilás
+    6 = Amarelo      E = Amarelo claro
+    7 = Branco       F = Branco brilhante
+
+    */
+
+    int num;
+    printf("Por favor, digite um número inteiro >>> ");
+    scanf("%i", &num);
+    printf("\nO número digitado foi >>> %i \n",num);
+    return 0;
+}

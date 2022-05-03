@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+#include <locale.h>
+
+/*
+Nome programa: Altura Média.
+Objetivo do programa: Solicitar que o usuário digite a altura de tres pessoas. O sistema irá exibir a média destas medidas.
+Programadora: Rafaela Vieira Barezi.
+Data Criação/ 02/02/2022.
+*/
+
+int main()
+
+{
+    setlocale(LC_ALL, "Portuguese_Brazil");
+    system("title Maioridade Penal");
+    system("color 90");
+
+    float a1, a2, a3, media;
+    // a significa altura correspondente a cada uma das pessoas, a1, a2, a3
+
+    printf("Por favor , digite a altura da primeira pessoa    ");
+    scanf("%f",&a1);
+    printf("\nAgora digite a altura da segunda pessoa:    ");
+    scanf("%f",&a2);
+    printf("\nDigite a altura da terceira pessoa para calcularmos a média:    ");
+    scanf("%f",&a3);
+    media = (a1+a2+a3)/3;
+
+    printf("\n\n\nA média das alturas informadas é %.2f m.\n\n\n", media);
+    return 0;
+}

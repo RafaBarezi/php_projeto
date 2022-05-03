@@ -1,0 +1,37 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+
+/*
+
+Nome do programa: Média de 10 números.
+Objetivo: Solicitar que o usuário digite 10 números aleatórios usando um looping para colher os dados e informar a média entre eles.
+Data Criação: 21/03/2022.
+
+*/
+
+int main()
+{
+    setlocale(LC_ALL, "Portuguese_Brazil");
+    system("title Média de 10 números");
+    system("color 03");
+
+    int contador = 1;
+    float numero, media, soma = 0;
+
+    while(contador <= 10)
+    {
+        system("cls");
+        printf("Digite o %i° número >>> ", contador);
+        scanf("%f", &numero);
+
+        soma = soma + numero;
+        contador = contador + 1;
+    }
+
+    media = soma /10;
+    system("cls");
+    printf("A média dos números digitados é >>> %.2f \n", media);
+
+    return 0;
+}

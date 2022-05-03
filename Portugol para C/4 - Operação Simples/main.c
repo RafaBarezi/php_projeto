@@ -1,0 +1,39 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+
+/*
+
+Nome do programa: Operação Simples.
+Objetivo: Solicitar que o usuário digite dois números e mostrar operações possíveis com esses dígitos.
+Data Criação: 31/01/2022.
+
+*/
+
+int main()
+{
+    setlocale(LC_ALL, "Portuguese_Brazil");
+    system("title Operação Simples");
+    system("color 03");
+
+    float a, b, soma, sub, mult, div;
+    printf("Por Favor, digite um número aleatório >>> ");
+    scanf(" %f", &a);
+    printf("\nDigite mais um número, por favor: >>> ");
+    scanf(" %f", &b);
+
+    soma = a+b;
+    sub = a-b;
+    mult = a*b;
+    div = a/b;
+
+    system("cls");
+
+    printf("Você digitou os números >>> %.0f e %.0f:\n\n\n", a, b);
+    printf("A soma dos números digitados é >>> %.0f\n\n", soma);
+    printf("A diferença entre os dois números é >>> %.0f\n\n", sub);
+    printf("O produto desses números é >>> %.0f\n\n", mult);
+    printf("O quociente desses números é >>> %.2f\n\n", div);
+
+    return 0;
+}
